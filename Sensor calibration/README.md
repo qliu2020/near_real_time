@@ -5,3 +5,5 @@ The 'IMU_data.mat' that can be processed by the calibration file has the followi
     
   n (number of rows): data length.    
   9 (number of columns): pelvis data in 1st-3rd column; left thigh data in 4th-6th column; right thigh data in 7th-9th column.
+
+The final calibration matrices are Rafsf_pelvis, R_afsf_left, and Rafsf_right.  
