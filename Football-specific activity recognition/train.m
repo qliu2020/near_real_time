@@ -1,9 +1,8 @@
 clear; 
 clc;
 close all;
-addpath( 'D:\课件\研二\Thesis\dataset\Dataset RUG - Soccer Specific Training Drill\S03\HAR\complete_4_drill');
 %%
-load('train_500_90_auto.mat');
+load('your_train_data.mat');
 
 train_set = dataset_train;
 Xtrain = train_set(:,1:end-1);
