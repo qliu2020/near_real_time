@@ -1,9 +1,8 @@
 clear; 
 clc;
 close all;
-addpath( 'D:\课件\研二\Thesis\dataset\Dataset RUG - Soccer Specific Training Drill\S03\HAR\complete_4_drill');
 %%
-load('test_500_90_auto.mat');
+load('your_test_data.mat');
 load('model_config.mat');
 test_set = dataset_test;
 Xtest = test_set(:,1:end-1); 
