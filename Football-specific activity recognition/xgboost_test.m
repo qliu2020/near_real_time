@@ -1,4 +1,4 @@
-function Yhat = xgboost_test(Xtest,ytest,model,loadmodel)
+function Yhat = xgboost_test(Xtest,model,loadmodel)
 
 %function Yhat = xgboost_test(Xtest,model,loadmodel)
 % eg:
@@ -22,7 +22,7 @@ if loadmodel == 0 % do not load model from file, but use pointer to the model in
 else % load model from file
     % load the xgboost library
     if not(libisloaded('xgboost'))
-        cwd = pwd; cd xgboost_matlab\lib
+        cwd = pwd; cd ..\lib
         loadlibrary('xgboost')
         cd(cwd)
     end
