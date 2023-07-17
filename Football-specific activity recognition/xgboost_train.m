@@ -37,7 +37,7 @@ end
 
 %%% load the xgboost library
 if not(libisloaded('xgboost'))
-    cwd = pwd; cd xgboost_matlab\lib
+    cwd = pwd; cd ..\lib
     loadlibrary('xgboost')
     cd(cwd)
 end
