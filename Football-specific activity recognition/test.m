@@ -7,7 +7,7 @@ load('model_config.mat');
 test_set = dataset_test;
 Xtest = test_set(:,1:end-1); 
 ytest = test_set(:,end);
-Yhat = xgboost_test(Xtest,ytest,model,1);
+Yhat = xgboost_test(Xtest,model,1);
 
 % plot confusion matrix
 plot_confusion(ytest, Yhat);
