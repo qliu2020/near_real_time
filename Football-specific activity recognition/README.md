@@ -10,13 +10,13 @@ Running the 'train.m' file will generate an 'xgboost_model.xgb' file saving the 
 The model used in this thesis is saved as 'xgboost_model_auto.xgb' with the configuration file 'model_auto_config.mat'  
 
 # Model Testing  
-If you want to test the trained model's performance, please run 'test.m' using your configuration file and test data:
+If you want to test the performance of the model trained above, please run 'test.m' using your test data 'test_data.mat':
 ```matlab
 load('test_data.mat');
 load('model_config.mat');
 ```
-please make sure that 
-The test data should also be a n x 13 matrix, having the same format as the training data.  
+please make sure that when testing you have your model 'xgboost_model.xgb' and configuration file 'model_config.mat' under the current working directory. 
+The test data should also be a n x 13 matrix, with the same format as the training data.  
 'test.m' will plot the result's confusion matrix and calculate the model performance (accuracy, precision, recall, F1-score, etc) automatically.
   
 
