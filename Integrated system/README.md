@@ -22,7 +22,7 @@ lefthip_xRot, lefthip_yRot, lefthip_zRot, righthip_xRot, righthip_yRot, righthip
 ```matlab
 lefthip_angularVel, righthip_angularVel 
 ```
-* Joint load
+* Joint loads
 ```matlab
 lhload, rhload
 ```
