@@ -2,7 +2,7 @@ clear;
 clc;
 close all;
 %%
-load('your_train_data.mat');
+load('train_data.mat');
 
 train_set = dataset_train;
 Xtrain = train_set(:,1:end-1);
