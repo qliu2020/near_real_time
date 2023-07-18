@@ -22,7 +22,7 @@ To run the user interface:
        ```matlab
         ind_calib_finished
        ```
-4. Press the 'Pause/Play' button to start and press it again to stop.
+4. Press the 'Pause/Play' button to start and press it again to stop. 
 5. Select the data to be observed in the drop box below 
 
 
