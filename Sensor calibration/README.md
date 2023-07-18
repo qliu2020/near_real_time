@@ -1,3 +1,6 @@
+```matlab
+load('IMU_data.mat');
+```
 The 'IMU_data.mat' that can be processed by the calibration file has the following form:    
   n X 9  'acc_S03' data matrix containing raw accelerometer data;   
   n X 9  'gyro_S03' data matrix containing raw gyroscope data:   
