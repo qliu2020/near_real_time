@@ -23,7 +23,7 @@ To run the user interface:
         ind_calib_finished
        ```
 4. Press the 'Pause/Play' button to start and press it again to stop.
-   * Since the UI will run in sync with the data processing system in the future, it will wait the same amount of time as the system takes to finish the calibration before starting to display.  
+   * Since the user interface will run synchronously with the data processing system in the future, it will wait the same amount of time as the system takes to finish the calibration before starting to display.  
 6. Select the data to be observed in the drop box below 
 
 
