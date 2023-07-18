@@ -1,7 +1,7 @@
 To run the user interface:  
 1. Open the 'UI.mlapp' file
 2. Click the 'Open File' button and select the file that contains the data to be displayed in the user interface
-   * The data should have the following variables:
+   * The data should include the following variables:
      *  Lower limbs orientations  
        ```matlab
        quat_pelvis, quat_left, quat_right
