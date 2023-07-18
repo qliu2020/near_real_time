@@ -10,15 +10,16 @@ load('IMU_data.mat');
   >> 'mag_S03': n x 9 magnetometer readouts [pelvis, left thigh, right thigh]   
  
 ## System Output
-* Joint orientations
+(Data to be displayed in the user interface)
+* Lower limbs orientations
 ```matlab
-lefthip_xRot, lefthip_yRot, lefthip_zRot, righthip_xRot, righthip_yRot, righthip_zRot 
+q_pelvis, q_leftthigh, q_rightthigh 
 ```
-* Joint 
+* Hip flexion angles
 ```matlab
-lefthip_angularVel, righthip_angularVel 
+flexExLH, flexExRH
 ```
-* Joint loads
+* Hip joint loads
 ```matlab
 lhload, rhload
 ```
