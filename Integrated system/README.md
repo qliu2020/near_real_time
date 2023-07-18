@@ -11,9 +11,9 @@ load('IMU_data.mat');
  
 ## System Output
 (Data to be displayed in the user interface)
-* Lower limbs orientations
+* Lower limbs (pelvis and left/right thigh) orientations
 ```matlab
-q_pelvis, q_leftthigh, q_rightthigh 
+quat_pelvis, quat_left, quat_right
 ```
 * Hip flexion angles
 ```matlab
