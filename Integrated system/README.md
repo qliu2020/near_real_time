@@ -10,15 +10,11 @@ load('IMU_data.mat');
   >> 'mag_S03': n x 9 magnetometer readouts [pelvis, left thigh, right thigh]   
  
 ## System Output
-* Calibration parameters
-```matlab
-q_calib_pelvis, q_calib_left, q_calib_right
-```
-* Joint angles
+* Joint orientations
 ```matlab
 lefthip_xRot, lefthip_yRot, lefthip_zRot, righthip_xRot, righthip_yRot, righthip_zRot 
 ```
-* Joint angular velocities
+* Joint 
 ```matlab
 lefthip_angularVel, righthip_angularVel 
 ```
