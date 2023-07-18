@@ -4,7 +4,7 @@ close all;
 addpath('Quaternion_library\');
 %%
 % load raw IMU data
-load('IMU_S03_1st_drill.mat');
+load('IMU_data.mat');
 acc_raw = acc_S03;
 gyro_raw = gyro_S03;
 mag_raw = mag_S03;
