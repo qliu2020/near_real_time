@@ -15,8 +15,8 @@ If you want to test the performance of the model trained above, please run 'test
 load('test_data.mat');
 load('model_config.mat');
 ```
-please make sure that when testing you have your model 'xgboost_model.xgb' and configuration file 'model_config.mat' under the current working directory. 
-The test data should also be a n x 13 matrix, with the same format as the training data.  
+please make sure that when testing you have your model 'xgboost_model.xgb' and configuration file 'model_config.mat' under the current working directory.   
+The test data should also be a n x 13 matrix, with the same format as the training data.    
 'test.m' will plot the result's confusion matrix and calculate the model performance (accuracy, precision, recall, F1-score, etc) automatically.
   
 
