@@ -4,10 +4,10 @@
 ```matlab
 load('IMU_data.mat');
 ```
->> The input data file should include 3 matrices: 
-  * 'acc_S03': n x 9 accelerometer readout
-  * 'gyro_S03': n x 9 gyroscope readout
-  * 'mag_S03': n x 9 magnetometer readout 
+> The input data file should include 3 matrices: 
+  >> 'acc_S03': n x 9 accelerometer readouts [pelvis x 3, left, right]
+  >> 'gyro_S03': n x 9 gyroscope readouts [pelvis x 3, left, right]
+  >> 'mag_S03': n x 9 magnetometer readouts [pelvis x 3, left, right]
 
 ## System Output
 * Calibration 
