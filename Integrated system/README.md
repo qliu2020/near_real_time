@@ -10,20 +10,25 @@ load('IMU_data.mat');
   >> 'mag_S03': n x 9 magnetometer readouts [pelvis, left thigh, right thigh]   
  
 ## System Output
-(Data to be displayed in the user interface)
-* Lower limbs (pelvis and left/right thigh) orientations
-```matlab
-quat_pelvis, quat_left, quat_right
-```
-* Hip flexion angles
-```matlab
-flexExLH, flexExRH
-```
-* Hip joint loads
-```matlab
-lhload, rhload
-```
-* Activity recognition results  
-```matlab
-Output_label
-```
+* Data to be displayed in the user interface
+  ```matlab
+   'UI_data.mat'
+  ```
+  The data file contains the following variables: 
+  * Lower limbs (pelvis and left/right thigh) orientations
+  ```matlab
+  quat_pelvis, quat_left, quat_right
+  ```
+  * Hip flexion angles
+  ```matlab
+  flexExLH, flexExRH
+  ```
+  * Hip joint loads
+  ```matlab
+  lhload, rhload
+  ```
+  * Activity recognition results  
+  ```matlab
+  Output_label
+  ```
+  * 
