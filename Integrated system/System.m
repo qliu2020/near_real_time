@@ -72,7 +72,7 @@ frame_num = fix((n_sample-window_size)/n)+1;
 class_num = 5;
 
 % Load XGBoost lib files
-load('model_auto_config.mat');
+load('model_config.mat');
 if not(libisloaded('xgboost'))
     cwd = pwd; cd ..\lib
     loadlibrary('xgboost')
@@ -258,7 +258,7 @@ while tIndex<n_sample-window_size
         flexExRH(tIndex-n:tIndex-1) = 180-rad2deg(righthip_zRot(window_size-n+1:end));
     end
 end
-
+save('UI_data.mat','quat_pelvis','quat_left','quat_right','flexExLH','flexExRH','lhload','rhload','ind_calib_finished','output_label');
 %%
 function mad = MAD(acc)
     temp = sqrt(acc(:,1).^2 + acc(:,2).^2 + acc(:,3).^2);
