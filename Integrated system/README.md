@@ -31,4 +31,7 @@
   ```matlab
   Output_label
   ```
-  * 
+  * Time when the system finished calibration
+  ```matlab
+  ind_calib_finished
+  ```
